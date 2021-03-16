@@ -9,6 +9,7 @@ function App() {
         <p>
           This is a practice paragraph I'm trying in src/App.js and using HTML-style formatting. 
         </p>
+        
         <a
           className="App-link"
           href="https://reactjs.org"
