@@ -5,7 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ClassComp from './practicingComponents/ClassComp';
 import FuncComp from './practicingComponents/FunctionalComp';
-{/* the command to open react in a page is: npm start */}
 
 ReactDOM.render(
   <React.StrictMode>
