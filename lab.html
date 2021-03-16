@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Practice</title>
+</head>
+<body>
+    <body>
+        <div id="displayLocation"></div>
+        
+
+
+        <script type="text/javascript">
+        const pageContentGoesHere = document.getElementById('displayLocation')
+        const newDiv = document.createElement('div')
+        newDiv.textContent = 'This the text of a variable named newDiv. newDiv was assigned to be a div element. The div element named newDiv is being called to another variable named pageContentGoesHere. pageContentGoesHere is then appending itself to displayLocation, which is the only thing in the HTML. So all of this is being added in the DOM, basically.'
+        pageContentGoesHere.appendChild(newDiv)
+        </script>
+</body>
+</html>
