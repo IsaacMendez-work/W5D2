@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ClassComp from './practicingComponents/ClassComp';
+import FuncComp from './practicingComponents/FunctionalComp';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <ClassComp />
+    <FuncComp />
   </React.StrictMode>,
   document.getElementById('root')
 );
