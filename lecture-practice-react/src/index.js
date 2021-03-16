@@ -10,8 +10,11 @@ import FuncComp from './practicingComponents/FunctionalComp';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+
+    {/* We can add components here to be added after <App /> is finished rendering, or we can add it so that it's actually in <App /> by adding these components to App.js */}
     <ClassComp />
     <FuncComp />
+
   </React.StrictMode>,
   document.getElementById('root')
 );

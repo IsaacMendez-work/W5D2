@@ -26,11 +26,13 @@ function App() {
         >
           Learn React
         </a>
+        {/* We can add components here to be added in as part of the App,js body, or we can add it  <App /> is finished rendering, or we can have it render in index.js after/before any of the content of App.js */}
         <div>
-        <ClassComp />
-        </div>
-        <div>
+          <h3>Here I will add the components in the App.js:</h3>
+          <p>
+          <ClassComp />
           <FuncComp />
+          </p>
         </div>
       </header>
     </div>
