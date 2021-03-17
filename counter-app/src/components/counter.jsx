@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 
 class Counter extends Component {
     state = {
-        count: 0
+        count: 1
     };
 
     render() { 
         // React.createElement('div')
         return (
             <div>
-                <h1>Hello World</h1>
+                <span>{this.state.count}</span>
                 <button>Increment</button>
             </div>
         );
